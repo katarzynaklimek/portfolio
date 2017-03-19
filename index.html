@@ -6,27 +6,13 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700,700i|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/css/font-awesome.min.css">
 
 
 
 </head>
 
-<body background="img/header-background.jpg">
-    <header>
-        <div id="mainheader">Jan Nowak
-            <div id="mainheadercontent">
-                <h1>Katarzyna <span>Klimek</span></h1>
-                <h2>Front-End Developer</h2>
-
-            </div>
-
-
-
-
-        </div>
-    </header>
-
-
+<body>
     <nav id="menu">
         <ul id="lista">
             <li><a href="omnie.html">o mnie</a></li>
@@ -35,14 +21,26 @@
             <li><a href="kontakt.html">kontakt</a></li>
         </ul>
     </nav>
+    
+    <header id="main-header">
+        <div class="main-header-content">
+            <h1>Katarzyna <span style="color:#1ac056">Klimek</span></h1>
+            <h2>Front-End Developer</h2>
+
+        </div>
+    </header>
+
+
+
 
     <section id="about">
         <h2>O mnie</h2>
-        <figure>
-            <img src="img/jan-nowak.jpg">
+        
+        <article>
+           <figure>
+            <img src="img/jan-nowak.jpg" alt="jannowak">
 
         </figure>
-        <article>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, impedit.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ea alias quas dolore dignissimos unde dolores, culpa blanditiis at, aspernatur minima similique possimus cumque velit nostrum molestias quod provident eaque!</p>
         </article>
@@ -50,20 +48,49 @@
     </section>
 
     <section id="skills">
-        <h2></h2>
+        <h2>Umiejętności</h2>
         <p></p>
         <div id="skillsicons">
-            <figure class="blok"><img src="icons/html5.png"></figure>
+            <figure class="blok"><img src="icons/html5.png" alt="ikonahtml5"></figure>
             <figcaption>html</figcaption>
-            <figure class="blok"><img src="icons/css3.png"></figure>
+            <figure class="blok"><img src="icons/css3.png" alt="ikonacss3"></figure>
             <figcaption>css3</figcaption>
-            <figure class="blok"><img src="icons/js.png"></figure>
+            <figure class="blok"><img src="icons/js.png" alt="ikonajs"></figure>
             <figcaption>js</figcaption>
-            <figure class="blok"><img src="icons/jquery.png">
-            <figcaption>jquery</figcaption>
+            <figure class="blok"><img src="icons/jquery.png" alt="ikonajquery">
+                <figcaption>jquery</figcaption>
             </figure>
         </div>
     </section>
+    <footer>
+        <section id="contact">
+            <div class="contact-data">
+                <h2>Katarzyna <span>Klimek</span></h2>
+                <address>Askenazego 11, Warszawa</address>
+                <div class="contactsocialicons">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="https://formspree.io/katarzyna.monika.klimek@gmail.com" method="post">
+                    <label for="imie">Imię:</label>
+                    <br/>
+                    <input type="text" name="imie" id="imie">
+                    <br/>
+                    <label for="email">Email:</label>
+                    <br/>
+                    <input type="text" name="email" id="email">
+                    <br/>
+                    <label for="wiadomosc">Wiadomość</label>
+                    <br/>
+                    <textarea maxlength="1500" name="wiadomosc" id="wiadomosc"></textarea>
+                    <br/>
+                    <input type="submit" value="wyslij">
+                </form>
+                <i class="fa fa-facebook-official" aria-hidden="true">facebook</i>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
