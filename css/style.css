@@ -3,3 +3,33 @@
     color: #291f1a;
     font-weight: 300;
 }
+
+ul#lista > li {
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+
+#menu {
+    background-color: #ffffff;
+    position: relative;
+    color: #1ac056;
+    font-weight: 300;
+    width: 100%;
+    
+    }
+nav {
+    
+    float: right;
+    
+}
+
+a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a:hover {
+    color: #291f1a;
+}
