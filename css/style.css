@@ -4,6 +4,11 @@
     font-weight: 300;
 }
 
+body {
+    
+    
+}
+
 ul#lista > li {
     list-style: none;
     display: inline-block;
@@ -13,7 +18,7 @@ ul#lista > li {
 
 #menu {
     background-color: #ffffff;
-    position: relative;
+    
     color: #1ac056;
     font-weight: 300;
     width: 100%;
@@ -21,7 +26,8 @@ ul#lista > li {
     }
 nav {
     
-    float: right;
+    text-align: right;
+    position: fixed;
     
 }
 
