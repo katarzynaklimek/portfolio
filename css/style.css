@@ -225,15 +225,28 @@ p {
     color: #fff;
 /*    height: 300px;*/
     overflow: hidden;
-    border: 2px solid black;
+/*    border: 2px solid black;*/
    
+}
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 0 solid #2b4a64;
+    font-size: 0;
+    background-color: #2b4a64;
+}
+input:focus {
+    background-color: #426684;
+}
+textarea:focus {
+    background-color: #426684;
 }
 
 
-
 .contact-form {
-    border: 2px solid rebeccapurple;
-    margin: 0;
+/*    border: 2px solid rebeccapurple;*/
+    margin-top: 100px;
     width: 50%;
     float: left;
 }
@@ -264,8 +277,39 @@ p {
     border: 1px solid #fff;
     font-size: 22px;
 }
+
+
+.contact-social-icon>a:hover {
+    border-color: #213b50;
+    color: #213b50;
+    background-color: #fff;
+}
 address {
     font-style: normal;
     line-height: 25px;
     margin: 72px 0;
 }
+
+input[type="submit"]{
+    width: auto;
+    padding: 15px 30px;
+    float: right;
+    text-transform: uppercase;
+    border: 1px solid #1ac056;
+    background-color: #1ac056;
+    color: #fff;
+    font-weight: 600;
+}
+.wyslij:hover {
+    background-color: #fff;
+    color: #1ac056;
+}
+footer {
+    background-color: #142634;
+    padding: 0 80px;
+}
+footer>p {
+    margin: 0;
+}
+
+
